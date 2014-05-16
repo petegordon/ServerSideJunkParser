@@ -6,7 +6,7 @@ mvn clean install
 
 
 Run the application:
-mvn exec:java -Dexec.mainClass="BlueQuill.App" -Dexec.args="[THE PATH TO YOUR DIRECTORY WITH JSP, INC, HTML FILES TO SEARCH AND REPORT ON]"
+mvn exec:java -Dexec.mainClass="ServerSideJunkParser.App" -Dexec.args="[THE PATH TO YOUR DIRECTORY WITH JSP, INC, HTML FILES TO SEARCH AND REPORT ON]"
 
 
 The output:
